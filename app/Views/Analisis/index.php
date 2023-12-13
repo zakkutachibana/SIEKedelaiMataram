@@ -83,7 +83,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mt-4 mb-0 text-gray-800">Sistem Informasi Eksekutif Panen Kedelai di Kota Mataram
+                        <h1 class="h3 mt-4 mb-0 text-gray-800">Analisis What-If Panen Kedelai di Kota Mataram
                         </h1>
 
                     </div>
@@ -92,14 +92,15 @@
                         <div class="col-12 col-md-6">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+                                    <h6 class="m-0 font-weight-bold text-success">Data Panen Kedelai</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="dropdown">
                                         <form>
                                             <div class="form-group">
-                                                <label for="exampleFormControlSelect1">Example select</label>
+                                                <label for="exampleFormControlSelect1" class="font-weight-bold">Tahun Panen</label>
                                                 <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option value="" selected disabled>Pilih Tahun</option>
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -108,42 +109,76 @@
                                                 </select>
                                             </div>
                                         </form>
-        
                                     </div>
-                                    The styling for this basic card example is created by using default Bootstrap
-                                    utility classes. By using utility classes, the style of the card component can be
-                                    easily modified with no need for any custom CSS!
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row col-3">Luas Lahan</th>
+                                                <td class="col-1">:</td>
+                                                <td class="col-8">... Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row col-3">Produktivitas</th>
+                                                <td class="col-1">:</td>
+                                                <td class="col-8">... Kw/Ha</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row col-3">Produksi</th>
+                                                <td class="col-1">:</td>
+                                                <td class="col-8">... Ton</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Data </h6>
+                                    <h6 class="m-0 font-weight-bold text-success">Data Analisis What-If</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="dropdown">
                                         <form>
                                             <div class="form-group">
-                                                <label for="exampleFormControlSelect1">Example select</label>
+                                                <label for="exampleFormControlSelect1" class="font-weight-bold">Variabel</label>
                                                 <select class="form-control" id="exampleFormControlSelect1">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
+                                                    <option value="" selected disabled>Pilih Variabel</option>
+                                                    <option>Luas Panen (Ha)</option>
+                                                    <option>Produktivitas (Kw/Ha)</option>
+                                                    <option>Produksi (Ton)</option>
                                                 </select>
                                             </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1" class="font-weight-bold">Nilai</label>
+                                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Nilai">
+                                            </div>
+
+                                            <button type="button" class="btn btn-success btn-lg btn-block" disabled>Analisis What-If</button>
+
                                         </form>
-        
                                     </div>
-                                    The styling for this basic card example is created by using default Bootstrap
-                                    utility classes. By using utility classes, the style of the card component can be
-                                    easily modified with no need for any custom CSS!
                                 </div>
                             </div>
                         </div>
-                     
+                        <div class="col-12">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-success">Hasil Analisis What-If</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="dropdown">
+                                        <form>
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>

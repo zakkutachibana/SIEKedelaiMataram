@@ -82,7 +82,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mt-4 mb-0 text-gray-800">Sistem Informasi Eksekutif Panen Kedelai di Kota Mataram
+                        <h1 class="h3 mt-4 mb-0 text-gray-800">Drilldown Panen Kedelai di Kota Mataram
                         </h1>
 
                     </div>

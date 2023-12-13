@@ -99,7 +99,7 @@
                 <tr>
                   <td scope="row"><?= $index + 1; ?>.</td>
                   <td><?= $sub_district['sub_district_name']; ?></td>
-                  <td><a href=<?= base_url('detail/' . $sub_district['sub_district_id']); ?> class="btn btn-primary">Lihat Detail</a></td>
+                  <td><a href=<?= base_url('detail/' . $sub_district['sub_district_id']); ?> class="btn btn-outline-success">Lihat Detail</a></td>
                 </tr>
               <?php endforeach; ?>
             </tbody>

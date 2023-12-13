@@ -40,7 +40,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Tabel Data Kecamatan -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="<?= base_url() ?>">
           <i class="fas fa-fw fa-table"></i>
           <span>Data Kecamatan</span></a>
