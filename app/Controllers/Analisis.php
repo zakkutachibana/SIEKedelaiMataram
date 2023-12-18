@@ -93,7 +93,7 @@ class Analisis extends BaseController
                 array_push($data, $steadyProduction);
 
                 $steadyLandArea = [
-                    'title' => 'Jumlah Luas Kolam Tetap',
+                    'title' => 'Jumlah Luas Lahan Tetap',
                     'production' => $this->calculateProduction($variableValue, $landArea),
                     'land_area' => $landArea,
                     'productivity' => $variableValue,
@@ -104,7 +104,7 @@ class Analisis extends BaseController
 
             case $productionSwitch:
                 $steadyLandArea = [
-                    'title' => 'Jumlah Luas Kolam Tetap',
+                    'title' => 'Jumlah Luas Lahan Tetap',
                     'production' => $variableValue,
                     'land_area' => $landArea,
                     'productivity' => $this->calculateProductivity($variableValue, $landArea),
