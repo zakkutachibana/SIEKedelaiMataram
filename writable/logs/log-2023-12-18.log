@@ -1,0 +1,573 @@
+CRITICAL - 2023-12-18 04:03:36 --> Unsupported operand types: string * int
+in APPPATH\Controllers\Home.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:42:33 --> Undefined array key "year"
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "year"', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(16): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:43:10 --> Undefined array key "years"
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "years"', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(15): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:46:19 --> Undefined array key "year_name"
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "year_name"', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(15): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:51:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 4 APPPATH\Controllers\Analisis.php(15): view('Analisis/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:52:14 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 4 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:52:15 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 4 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:53:27 --> Undefined variable $years
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:54:33 --> Undefined array key "year_name"
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "year_name"', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:54:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 4 APPPATH\Controllers\Analisis.php(13): view('Analisis/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:55:51 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('Analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:56:20 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:56:24 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:57:04 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 04:57:08 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:02:12 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:03:39 --> Attempt to read property "year_name" on array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year_name" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:03:45 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:03:54 --> Undefined property: stdClass::$year_name
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 APPPATH\Views\Analisis\index.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$year_name', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:06:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Analisis\index.php on line 105.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 4 APPPATH\Controllers\Analisis.php(13): view('analisis/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:08:14 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Analisis.php on line 16.
+ 1 APPPATH\Controllers\Analisis.php(16): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:08:23 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Controllers\Analisis.php on line 16.
+ 1 APPPATH\Controllers\Analisis.php(16): array_push(null, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:09:06 --> Undefined variable $years
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:09:30 --> Undefined variable $years
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $years', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:10:54 --> Undefined variable $year
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $year', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(22): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:12:06 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:12:43 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:13:29 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:13:30 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:13:31 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(21): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:16:12 --> Undefined variable $data
+in APPPATH\Views\Analisis\index.php on line 104.
+ 1 APPPATH\Views\Analisis\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php', 104)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Views\\Analisis\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('analisis/index', [], true)
+ 5 APPPATH\Controllers\Analisis.php(22): view('analisis/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:32:54 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Analisis.php on line 17.
+ 1 APPPATH\Controllers\Analisis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:33:30 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Analisis.php on line 17.
+ 1 APPPATH\Controllers\Analisis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:33:32 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Analisis.php on line 17.
+ 1 APPPATH\Controllers\Analisis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 05:36:56 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Analisis.php on line 17.
+ 1 APPPATH\Controllers\Analisis.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:08:04 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:23:33 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:24:01 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:24:05 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:24:15 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:24:25 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 42.
+ 1 APPPATH\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:27:32 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:27:33 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:28:41 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:30:44 --> Attempt to read property "year" on array
+in APPPATH\Controllers\Home.php on line 57.
+ 1 APPPATH\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "year" on array', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Home.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:40:26 --> Undefined variable $yearId
+in APPPATH\Controllers\Analisis.php on line 13.
+ 1 APPPATH\Controllers\Analisis.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yearId', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:40:36 --> Undefined variable $yearId
+in APPPATH\Controllers\Analisis.php on line 13.
+ 1 APPPATH\Controllers\Analisis.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yearId', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 07:45:01 --> Undefined variable $yearId
+in APPPATH\Controllers\Analisis.php on line 13.
+ 1 APPPATH\Controllers\Analisis.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $yearId', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:42:30 --> Call to undefined method App\Models\LandAreaModel::getLandAreaByYear
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Analisis.php(36): CodeIgniter\Model->__call('getLandAreaByYear', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2017')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:44:06 --> Call to undefined method App\Models\ProductionModel::getProductionTotalByYear
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Model->__call('getProductionTotalByYear', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2018')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:45:50 --> Undefined array key "production_total_value"
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "production_total_value"', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2019')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:46:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+in APPPATH\Models\ProductionModel.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): App\Models\ProductionModel->getProductionTotalByYear('2019')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2019')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:47:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getFirstArray()
+in APPPATH\Models\ProductionModel.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): App\Models\ProductionModel->getProductionTotalByYear('2018')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2018')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 08:48:11 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2019')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 11:24:03 --> Attempt to read property "production_total_value" on null
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "production_total_value" on null', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 11:25:55 --> Attempt to read property "production_total_value" on null
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "production_total_value" on null', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 11:26:28 --> Attempt to read property "production_total_value" on null
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "production_total_value" on null', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 11:28:19 --> Attempt to read property "production_total_value" on null
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "production_total_value" on null', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('2', '21', '2016')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 11:30:08 --> Attempt to read property "production_total_value" on null
+in APPPATH\Controllers\Analisis.php on line 35.
+ 1 APPPATH\Controllers\Analisis.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "production_total_value" on null', 'C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\app\\Controllers\\Analisis.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->getDataByYear('1', '212', '2020')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')

@@ -25,4 +25,13 @@ class LandAreaModel extends Model
 
         return $data->get()->getResultArray();
     }
+
+    public function getLandAreaTotalByYear($year)
+    {
+        $data = $this->select('*')
+            ->join('years', 'land_area_total.year_id = years.year_id', 'inner')
+            ->where('years.year', $year);
+            
+            return $data->get()->getFirstRow();
+        }
 }

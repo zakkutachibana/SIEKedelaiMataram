@@ -93,8 +93,8 @@
                 <th scope="col">No.</th>
                 <th scope="col">Tahun</th>
                 <th scope="col">Luas Lahan (Ha)</th>
-                <th scope="col">Produktivitas (kw/Ha)</th>
-                <th scope="col">Produksi (Ton)</th>
+                <th scope="col">Produktivitas (Kw/Ha)</th>
+                <th scope="col">Produksi (Kw)</th>
               </tr>
             </thead>
             <tbody>

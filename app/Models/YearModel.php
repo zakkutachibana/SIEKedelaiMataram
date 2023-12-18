@@ -7,10 +7,11 @@ use CodeIgniter\Model;
 class YearModel extends Model
 {
     protected $table = 'years'; 
-    protected $returnType     = 'object';
 
     public function getYears()
     {
-        return $this->findAll();
+        $data = $this->select('*');
+
+        return $data->get()->getResultObject();
     }
 }

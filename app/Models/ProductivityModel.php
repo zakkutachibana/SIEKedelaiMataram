@@ -25,4 +25,15 @@ class ProductivityModel extends Model
             
         return $data->get()->getResultArray();
     }
+
+    public function getProductivityTotalByYear($year)
+    {
+        $data = $this->select('*')
+            ->join('years', 'productivity_total.year_id = years.year_id', 'inner')
+            ->where('years.year', $year);
+            
+            return $data->get()->getFirstRow();
+        }
+
+
 }

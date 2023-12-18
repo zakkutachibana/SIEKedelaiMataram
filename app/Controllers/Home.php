@@ -26,8 +26,8 @@ class Home extends BaseController
         $yearModel = new YearModel();
 
         $subDistrictNames = $subDistrictModel
-        ->where('sub_district_id', $subDistrictId)
-        ->first()['sub_district_name'];
+            ->where('sub_district_id', $subDistrictId)
+            ->first()['sub_district_name'];
 
         $landAreaTotals = $landAreaModel->getLandAreasBySubdistrict($subDistrictId);
         $productionTotals = $productionModel->getProductionsBySubdistrict($subDistrictId);
@@ -36,36 +36,33 @@ class Home extends BaseController
 
         $data = [];
 
-        foreach($years as $year){
+        foreach ($years as $year) {
             $tempData = [];
             foreach ($landAreaTotals as $landAreaTotal) {
-                if($year->year == $landAreaTotal['year']){ 
-                     $tempData['landAreaTotal'] = $landAreaTotal['land_area_detail_value']; 
-               }
+                if ($year['year'] == $landAreaTotal['year']) {
+                    $tempData['landAreaTotal'] = $landAreaTotal['land_area_detail_value'];
+                }
             }
             foreach ($productivityTotals as $productivityTotal) {
-                if($year->year == $productivityTotal['year']){
+                if ($year['year'] == $productivityTotal['year']) {
                     $tempData['productivityTotal'] = $productivityTotal['productivity_detail_value'];
                 }
             }
             foreach ($productionTotals as $productionTotal) {
-                if($year->year == $productionTotal['year']){
-                    $tempData['productionTotal'] = $productionTotal['production_detail_value'];
+                if ($year['year'] == $productionTotal['year']) {
+                    $tempData['productionTotal'] = $productionTotal['production_detail_value'] * 10;
                 }
             }
-            
-            $tempData['year'] = $year->year;
 
-
+            $tempData['year'] = $year['year'];
             array_push($data, $tempData);
-
         }
-        
+
         $viewData = [
             'title' => 'Detail Panen Kedelai di ' . $subDistrictNames . ' ',
             'all_datas' => $data,
         ];
-        
+
         return view('detail/index', $viewData);
     }
 }

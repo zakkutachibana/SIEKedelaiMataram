@@ -25,4 +25,13 @@ class ProductionModel extends Model
             
         return $data->get()->getResultArray();
     }
+
+    public function getProductionTotalByYear($year)
+    {
+        $data = $this->select('*')
+            ->join('years', 'production_total.year_id = years.year_id', 'inner')
+            ->where('years.year', $year);
+            
+        return $data->get()->getFirstRow();
+    }
 }
