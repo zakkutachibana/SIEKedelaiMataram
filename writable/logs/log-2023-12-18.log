@@ -571,3 +571,141 @@ in APPPATH\Controllers\Analisis.php on line 35.
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cssmi\\Documents\\Kuliah\\Sistem Informasi Eksekutif\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:19:36 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 153.
+ 1 APPPATH\Views\Drilldown\index.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 153)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(14): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:19:53 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 154.
+ 1 APPPATH\Views\Drilldown\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 154)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(14): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:19:54 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 154.
+ 1 APPPATH\Views\Drilldown\index.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 154)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(14): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:20:09 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 156.
+ 1 APPPATH\Views\Drilldown\index.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 156)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(14): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:20:10 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 156.
+ 1 APPPATH\Views\Drilldown\index.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 156)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(14): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:58:13 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:58:16 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:59:57 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:59:57 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:59:58 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 16:59:58 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->getDrilldownData()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 17:43:26 --> Call to undefined method App\Models\LandAreaModel::getResultArray
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\LandAreaModel.php(26): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Home.php(32): App\Models\LandAreaModel->getLandAreasBySubdistrict('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 17:43:30 --> Call to undefined method App\Models\LandAreaModel::getResultArray
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\LandAreaModel.php(26): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Home.php(32): App\Models\LandAreaModel->getLandAreasBySubdistrict('2')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 17:43:48 --> Call to undefined method App\Models\LandAreaModel::getResultArray
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\LandAreaModel.php(26): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Home.php(32): App\Models\LandAreaModel->getLandAreasBySubdistrict('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-18 17:44:56 --> Call to undefined method App\Models\LandAreaModel::getResultArray
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Models\LandAreaModel.php(26): CodeIgniter\Model->__call('getResultArray', [])
+ 2 APPPATH\Controllers\Home.php(32): App\Models\LandAreaModel->getLandAreasBySubdistrict('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->detail('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')

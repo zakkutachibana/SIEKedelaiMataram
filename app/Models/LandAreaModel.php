@@ -34,4 +34,31 @@ class LandAreaModel extends Model
             
             return $data->get()->getFirstRow();
         }
+
+    public function getLandAreaSumBySubDistrict()
+    {
+        $data = $this->db->table('sub_districts');
+        $data->select('sub_districts.sub_district_name, SUM(land_area_details.land_area_detail_value) as total_value');
+        $data->join('land_area_details', 'sub_districts.sub_district_id = land_area_details.sub_district_id');
+        $data->join('land_area_total', 'land_area_details.land_area_id = land_area_total.land_area_id');
+        $data->join('years', 'land_area_total.year_id = years.year_id');
+        $data->groupBy('sub_districts.sub_district_name');
+
+        return $data->get()->getResultArray();
+    }
+
+    public function getDrilldownData($subDistrictName)
+    {
+        $data = $this->db->table('sub_districts');
+        $data->select('years.year, land_area_details.land_area_detail_value');
+        $data->join('land_area_details', 'sub_districts.sub_district_id = land_area_details.sub_district_id');
+        $data->join('land_area_total', 'land_area_details.land_area_id = land_area_total.land_area_id');
+        $data->join('years', 'land_area_total.year_id = years.year_id');
+        $data->where('sub_districts.sub_district_name', $subDistrictName);
+
+        return $data->get()->getResultArray();
+    }
+    
 }
+
+

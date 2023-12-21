@@ -1,0 +1,415 @@
+CRITICAL - 2023-12-21 06:10:50 --> Call to undefined method App\Models\LandAreaModel::getSubDistricts
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(16): CodeIgniter\Model->__call('getSubDistricts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:10:51 --> Call to undefined method App\Models\LandAreaModel::getSubDistricts
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(16): CodeIgniter\Model->__call('getSubDistricts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:10:54 --> Call to undefined method App\Models\LandAreaModel::getSubDistricts
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(16): CodeIgniter\Model->__call('getSubDistricts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:12:38 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:12:39 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:12:41 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:12:45 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:36:23 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 06:36:26 --> Call to undefined method App\Models\LandAreaModel::getTotalLandAreaBySubDistrict
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Drilldown.php(23): CodeIgniter\Model->__call('getTotalLandAreaBySubDistrict', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 08:08:12 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 145.
+ 1 APPPATH\Views\Drilldown\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(16): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 08:10:58 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 145.
+ 1 APPPATH\Views\Drilldown\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(16): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 08:11:01 --> Undefined variable $data
+in APPPATH\Views\Drilldown\index.php on line 145.
+ 1 APPPATH\Views\Drilldown\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(16): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 08:19:27 --> Undefined variable $luas_panen
+in APPPATH\Views\Drilldown\index.php on line 149.
+ 1 APPPATH\Views\Drilldown\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $luas_panen', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(36): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 08:22:22 --> Undefined variable $luas_panen
+in APPPATH\Views\Drilldown\index.php on line 149.
+ 1 APPPATH\Views\Drilldown\index.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $luas_panen', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 149)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(36): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:12:12 --> Unmatched '}'
+in APPPATH\Controllers\Drilldown.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Controllers\\Drilldown.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Drilldown')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Drilldown')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Drilldown', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:12:14 --> Unmatched '}'
+in APPPATH\Controllers\Drilldown.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Controllers\\Drilldown.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Drilldown')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Drilldown')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Drilldown', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:12:17 --> Unmatched '}'
+in APPPATH\Controllers\Drilldown.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Controllers\\Drilldown.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Drilldown')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Drilldown')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Drilldown', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:13:04 --> Unmatched '}'
+in APPPATH\Controllers\Drilldown.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Controllers\\Drilldown.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Drilldown')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Drilldown')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Drilldown', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:13:06 --> Unmatched '}'
+in APPPATH\Controllers\Drilldown.php on line 74.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Controllers\\Drilldown.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Drilldown')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Drilldown')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Drilldown', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:28:58 --> Undefined variable $subDistrictsData
+in APPPATH\Views\Drilldown\index.php on line 103.
+ 1 APPPATH\Views\Drilldown\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subDistrictsData', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(15): view('drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:29:01 --> Undefined variable $subDistrictsData
+in APPPATH\Views\Drilldown\index.php on line 103.
+ 1 APPPATH\Views\Drilldown\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subDistrictsData', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(15): view('drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:39:05 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:39:06 --> Object of class App\Models\LandAreaModel could not be converted to string
+in APPPATH\Controllers\Drilldown.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 09:43:59 --> Array to string conversion
+in APPPATH\Views\Drilldown\index.php on line 146.
+ 1 APPPATH\Views\Drilldown\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(20): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+ERROR - 2023-12-21 10:08:34 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_eis_soy', 3307, '', 0)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SIEKedelaiMataram\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SIEKedelaiMataram\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Analisis.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Analisis->index()
+#8 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+#9 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\SIEKedelaiMataram\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SIEKedelaiMataram\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Analisis.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Analisis->index()
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+#8 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-12-21 10:08:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `years`
+ORDER BY `year` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Analisis.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Analisis->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisis))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+ERROR - 2023-12-21 10:08:38 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_eis_soy', 3307, '', 0)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_dis...', Array, false)
+#4 C:\xampp\htdocs\SIEKedelaiMataram\app\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+#6 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+#8 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_dis...', Array, false)
+#3 C:\xampp\htdocs\SIEKedelaiMataram\app\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+#5 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+#6 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-21 10:08:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_districts`.`sub_district_name`, SUM(land_area_details.land_area_detail_value) as total_value
+FROM `sub_districts`
+JOIN `land_area_details` ON `sub_districts`.`sub_district_id` = `land_area_details`.`sub_district_id`
+JOIN `land_area_total` ON `land_area_details`.`land_area_id` = `land_area_total`.`land_area_id`
+JOIN `years` ON `land_area_total`.`year_id` = `years`.`year_id`
+GROUP BY `sub_districts`.`sub_district_name`', [], false)
+ 3 APPPATH\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+ERROR - 2023-12-21 10:08:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_eis_soy', 3307, '', 0)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_dis...', Array, false)
+#4 C:\xampp\htdocs\SIEKedelaiMataram\app\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+#6 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+#8 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\SIEKedelaiMataram\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\SIEKedelaiMataram\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_dis...', Array, false)
+#3 C:\xampp\htdocs\SIEKedelaiMataram\app\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\SIEKedelaiMataram\app\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+#5 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+#6 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+#7 C:\xampp\htdocs\SIEKedelaiMataram\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\SIEKedelaiMataram\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\SIEKedelaiMataram\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-21 10:08:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `sub_districts`.`sub_district_name`, SUM(land_area_details.land_area_detail_value) as total_value
+FROM `sub_districts`
+JOIN `land_area_details` ON `sub_districts`.`sub_district_id` = `land_area_details`.`sub_district_id`
+JOIN `land_area_total` ON `land_area_details`.`land_area_id` = `land_area_total`.`land_area_id`
+JOIN `years` ON `land_area_total`.`year_id` = `years`.`year_id`
+GROUP BY `sub_districts`.`sub_district_name`', [], false)
+ 3 APPPATH\Models\LandAreaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Drilldown.php(14): App\Models\LandAreaModel->getLandAreaSumBySubDistrict()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 10:08:55 --> Array to string conversion
+in APPPATH\Views\Drilldown\index.php on line 146.
+ 1 APPPATH\Views\Drilldown\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(20): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 10:08:59 --> Array to string conversion
+in APPPATH\Views\Drilldown\index.php on line 146.
+ 1 APPPATH\Views\Drilldown\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(20): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 10:14:24 --> Array to string conversion
+in APPPATH\Views\Drilldown\index.php on line 146.
+ 1 APPPATH\Views\Drilldown\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(20): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')
+CRITICAL - 2023-12-21 10:14:39 --> Array to string conversion
+in APPPATH\Views\Drilldown\index.php on line 146.
+ 1 APPPATH\Views\Drilldown\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\SIEKedelaiMataram\\app\\Views\\Drilldown\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('Drilldown/index', [], true)
+ 5 APPPATH\Controllers\Drilldown.php(20): view('Drilldown/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Drilldown->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Drilldown))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\SIEKedelaiMataram\\public\\index.php')

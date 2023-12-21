@@ -18,6 +18,15 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url() ?>/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Include Highcharts library -->
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -84,22 +93,62 @@
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mt-4 mb-0 text-gray-800">Drilldown Panen Kedelai di Kota Mataram
                         </h1>
-
                     </div>
 
                     <!-- Bar Chart -->
                     <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-success">Bar Chart</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="chart-bar">
-                                <canvas id="myBarChart"></canvas>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="land-area-tab" data-toggle="tab" href="#land-area">Luas Lahan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="productivity-tab" data-toggle="tab" href="#productivity">Produktivitas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="production-tab" data-toggle="tab" href="#production">Produksi</a>
+                            </li>
+                        </ul>
+                        <!-- Tabs Content -->
+                        <div class="tab-content mt-3">
+                            <div class="tab-pane fade show active" id="land-area">
+                                <!-- Load land-area.js initially -->
+                                <script>
+                                    document.getElementById('land-area-tab').addEventListener('click', function() {
+                                        loadScript('land-area.js');
+                                    });
+                                </script>
                             </div>
-                            <hr>
-                            Styling for the bar chart can be found in the
-                            <code>/js/demo/chart-bar-demo.js</code> file.
+                            <div class="tab-pane fade" id="productivity">
+                                <!-- Load productivity.js when this tab is clicked -->
+                                <script>
+                                    document.getElementById('productivity-tab').addEventListener('click', function() {
+                                        loadScript('productivity.js');
+                                    });
+                                </script>
+                            </div>
+                            <div class="tab-pane fade" id="production">
+                                <!-- Load production.js when this tab is clicked -->
+                                <script>
+                                    document.getElementById('production-tab').addEventListener('click', function() {
+                                        loadScript('production.js');
+                                    });
+                                </script>
+                            </div>
                         </div>
+
+                        <div id="container" style="border-radius: 10px; width: auto; padding: 20px;"></div>
+                        <!-- Drilldown view -->
+                        <script>
+                            loadScript('land-area.js');
+
+                            // Function to load JavaScript conditionally
+                            function loadScript(scriptName) {
+                                var script = document.createElement('script');
+                                script.type = 'text/javascript';
+                                script.src = '<?= base_url('js/') ?>' + scriptName;
+                                document.head.appendChild(script);
+                            }
+                        </script>
                     </div>
 
                 </div>
@@ -141,7 +190,6 @@
     <!-- Page level custom scripts -->
     <script src="<?= base_url() ?>/js/demo/chart-area-demo.js"></script>
     <script src="<?= base_url() ?>/js/demo/chart-pie-demo.js"></script>
-    <script src="<?= base_url() ?>js/demo/chart-bar-demo.js"></script>
 
 </body>
 
